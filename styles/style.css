@@ -134,6 +134,8 @@ li a{
     font-weight: 500;
 }
 
+/* Features related styles */
+
 /* some card related styles */
 .cards-container{
     display: grid;
@@ -169,3 +171,18 @@ li a{
     margin-top: 10px;
 }
 
+/* sponsors related */
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-companies img{
+    filter: grayscale(100%);
+}
