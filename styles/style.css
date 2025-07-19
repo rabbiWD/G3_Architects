@@ -176,7 +176,9 @@ li a{
 }
 
 .feature-architect img{
-    width: 100%;
+     width: 700px;
+    height: 981px; 
+     
 }
 /* some card related styles */
 .cards-container{
@@ -228,3 +230,21 @@ li a{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+
+/* footer styles */
+footer{
+    
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 130px;
+   
+}
+
+.footer-desc{
+   background-color: rgba(255, 144, 14, 0.1);
+    padding: 35px 300px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+

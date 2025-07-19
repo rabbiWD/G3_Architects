@@ -35,6 +35,16 @@
         margin-left: 20px;
     }
 
+    .footer-desc{
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    .feature-architect img{
+     width: 100%;
+     margin-top: -110px;
+}
+
     
 }
 
@@ -75,4 +85,9 @@
     .description{
         font-size: 1.4rem;
     }
+
+    .feature-architect img{
+    width: 100%;
+    margin-top: -80px;
+}
 }
