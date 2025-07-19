@@ -1,6 +1,6 @@
 
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams, .features{
         flex-direction: column;
     }
 
@@ -30,12 +30,17 @@
         gap: 50px;
     }
 
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
     
 }
 
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
 
@@ -52,5 +57,22 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+
+     #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .section-title, .section-desc {
+        margin-left: 30px;
+    }
+
+    .feature-title{
+        font-size: 1.8rem;
+    }
+
+    .description{
+        font-size: 1.4rem;
     }
 }
